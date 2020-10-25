@@ -1,5 +1,11 @@
 import React from "react";
+import Seo from "components/utils/Seo";
 
 export default function Home(): JSX.Element {
-  return <div>Home</div>;
+  return (
+    <>
+      <Seo title="Home" />
+      <div>Home</div>
+    </>
+  );
 }
