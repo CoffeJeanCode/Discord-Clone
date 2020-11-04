@@ -1,0 +1,11 @@
+# Deps
+node_modules
+
+# Production
+dist
+build
+bundle
+
+# Locks
+yarn.lock
+package-lock.json
