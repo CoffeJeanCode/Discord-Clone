@@ -11,6 +11,9 @@ export default function Seo({ title, description }: SeoProps): JSX.Element {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="author" content="Leobar" />
+      <meta name="author" content="CoffeJeanCode" />
+      <meta name="author" content="Bloba" />
     </Helmet>
   );
 }
