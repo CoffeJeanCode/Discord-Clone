@@ -5,7 +5,7 @@ import App from "App";
 
 import reportWebVitals from "extra/reportWebVitals";
 import * as serviceWorker from "extra/serviceWorker";
-import "styles/index.scss"
+import "styles/index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,5 +14,5 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-reportWebVitals();
+reportWebVitals((metric) => console.log(metric));
 serviceWorker.register();
